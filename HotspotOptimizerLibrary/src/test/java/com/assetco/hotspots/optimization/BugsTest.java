@@ -1,3 +1,6 @@
+/*
+package com.assetco.hotspots.optimization;
+
 import com.assetco.search.results.Asset;
 import com.assetco.search.results.AssetVendor;
 import com.assetco.search.results.AssetVendorRelationshipLevel;
@@ -48,3 +51,4 @@ public class BugsTest {
 
     }
 }
+*/

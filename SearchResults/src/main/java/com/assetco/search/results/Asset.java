@@ -102,16 +102,4 @@ public class Asset {
     public AssetVendor getVendor() {
         return vendor;
     }
-
-    public static Asset givenAssetInResultsWithVendor(AssetVendor assetVendor) {
-        return null;
-    }
-
-    public static ArrayList<Asset> givenAssetInResultsWithVendorAsList(AssetVendor assetVendor, int size) {
-        ArrayList<Asset> list = new ArrayList<>();
-        for (int i = 0; i < size; i++) {
-            list.add(givenAssetInResultsWithVendor(assetVendor));
-        }
-        return list;
-    }
 }

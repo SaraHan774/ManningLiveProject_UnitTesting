@@ -20,10 +20,6 @@ public class AssetVendor {
         this.royaltyRate = royaltyRate;
     }
 
-    public static AssetVendor makeVendor(AssetVendorRelationshipLevel relationshipLevel) {
-        return null;
-    }
-
     /**
      * The unique ID for the vendor.
      */
